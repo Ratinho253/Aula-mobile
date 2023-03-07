@@ -39,22 +39,6 @@ import kotlin.math.pow
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-//        val p = Product()
-//        p.id = 100
-//        p.name = "Mouse"
-//        p.price = 230.0
-//
-//        var x = p.addName()
-//
-//        var y = p.listProducts()
-//
-//        val z = Client(
-//            100,
-//            "Pedro",
-//            LocalDate.of(1999, 5, 13)
-//        )
-
         setContent {
             BMICalcTheme {
                 CalculatorScreen()
